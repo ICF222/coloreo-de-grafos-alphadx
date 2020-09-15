@@ -21,8 +21,8 @@ vector<string> split(const string& str, const string& delim)
     while (pos < str.length() && prev < str.length());
     return tokens;
 }
-// g++ main.cpp -o main.exe
-// ./main -f ./archivos/grafo1 -s ./archivos/pruebas1 -o ./archivos/grafo1_pruebas1.sal
+// g++ main.cpp -o solver
+// ./solver -i ./Instancias/ejemplo1.in -o ./Salidas/ejemplo1.out -t 2
 
 int main(int argc, char* argv[]) {
   string filenameIN, filenameOUT;
